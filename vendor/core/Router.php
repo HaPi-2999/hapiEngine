@@ -59,7 +59,7 @@ class Router
                 return true;
             }
         }
-        echo "404 not found";
+        require_once WWW . "/404.php";
 
         return false;
     }

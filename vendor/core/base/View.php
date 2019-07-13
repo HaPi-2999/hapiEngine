@@ -57,8 +57,6 @@ class View
 
             $pathView = ROOT . "/templates/views/" . $view . ".php";
 
-            echo "$pathView" . "<br/>";
-
             ob_start();
 
             if (is_file($pathView)) {
