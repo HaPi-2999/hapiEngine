@@ -27,3 +27,7 @@ Render view and layout компонентов:
             Пример:
                 
                 У нас есть view  под название main_view.В layout подключяем так $views['main_view']
+                
+         5) Все layouts лежат в папке templates
+         
+         6)　Все　view лежат в папке templates/views   
