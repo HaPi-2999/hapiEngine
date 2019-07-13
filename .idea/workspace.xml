@@ -13,14 +13,17 @@
       <executable />
     </execution>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="hapiEngine" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="412">
-                <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+              <first_editor relative-caret-position="260">
+                <caret line="24" column="89" lean-forward="true" selection-start-line="24" selection-start-column="89" selection-end-line="24" selection-end-column="89" />
               </first_editor>
               <second_editor />
             </state>
@@ -86,18 +89,23 @@
             <path>
               <item name="hapiEngine" type="b2602c69:ProjectViewProjectNode" />
               <item name="hapiEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hapiEngine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hapiEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hapiEngine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hapiEngine" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hapiEngine" type="b2602c69:ProjectViewProjectNode" />
               <item name="hapiEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hapiEngine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hapiEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -149,19 +157,19 @@
       <workItem from="1562168318441" duration="4514000" />
       <workItem from="1562259303574" duration="3392000" />
       <workItem from="1562823219876" duration="1868000" />
-      <workItem from="1563032373200" duration="13915000" />
+      <workItem from="1563032373200" duration="14844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23689000" />
+    <option name="totallyTimeSpent" value="24618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1012" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49915683" visible="true" weight="0.25773746" />
-      <window_info id="Structure" order="1" sideWeight="0.50084317" side_tool="true" visible="true" weight="0.25773746" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Structure" order="1" sideWeight="0.50084317" side_tool="true" weight="0.25773746" />
+      <window_info id="Favorites" order="2" sideWeight="0.50084317" side_tool="true" weight="0.25773746" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -307,8 +315,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="412">
-            <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+          <first_editor relative-caret-position="260">
+            <caret line="24" column="89" lean-forward="true" selection-start-line="24" selection-start-column="89" selection-end-line="24" selection-end-column="89" />
           </first_editor>
           <second_editor />
         </state>
