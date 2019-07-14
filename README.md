@@ -31,3 +31,13 @@ Render view and layout компонентов:
          5)Все layouts лежат в папке templates
          
          6)Все　views лежат в папке templates/views   
+Model:
+        
+       1)Все Модели должны находиться в папке app\models
+       
+       2)Добавил несколько методов для работы с бд - find, findAll, findByFieldName    
+       
+       3)Для привязки Модели к определенной таблице нужно переопределить поле $table
+            Пример: protected static $table = "users"; - говорим, что будем использовать таблицу users
+
+Добавил файл конфигураций conf.php - лежит в корне проекта          

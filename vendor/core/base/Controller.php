@@ -4,6 +4,8 @@
 namespace vendor\core\base;
 
 
+use vendor\core\Db;
+
 abstract class Controller
 {
     protected $route = [];
@@ -16,11 +18,16 @@ abstract class Controller
     {
         $this->route = $route;
         $this->view = new View($route);
-        $this->model = new Model();
+        $this->model = new Db();
     }
 
     protected function getView()
     {
         return $this->view;
+    }
+
+    public function getModel()
+    {
+        return $this->model;
     }
 }

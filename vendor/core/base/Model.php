@@ -5,14 +5,50 @@ namespace vendor\core\base;
 
 
 use RedBeanPHP\R;
+use vendor\core\Db;
 
-class Model extends R
+class Model extends Db
 {
+    protected static $table = "";
+
+    /**
+     * array data
+     * Model constructor.
+     * @param array $data
+     */
     public function __construct()
     {
-        R::setup('mysql:host=localhost;dbname=' . DB, DB_USER, DB_PASSWORD);
-        if (!R::testConnection()) {
-            die("Нет подключения к базе данных");
-        }
+
     }
+
+
+
+    /**
+     * Поиск по id
+     * @return array
+     */
+    public static function find($id)
+    {
+        return self::getAll("select * from " . static::$table . " where id=?", [$id]);
+    }
+
+    /**
+     * получение всех данных из таблицы
+     * @return array
+     */
+    public static function findAll()
+    {
+        return self::getAll("select * from " . static::$table);
+    }
+
+    /**
+     * Поиск в базе данных по конкретному полю
+     * @param $nameField
+     * @param $valueField
+     */
+    public static function findByFieldName($nameField, $valueField)
+    {
+        return self::getAll("select * from " . static::$table . " where $nameField=?", [$valueField]);
+    }
+
 }
