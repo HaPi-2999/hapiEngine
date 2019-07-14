@@ -21,8 +21,6 @@ class Model extends Db
 
     }
 
-
-
     /**
      * Поиск по id
      * @return array
