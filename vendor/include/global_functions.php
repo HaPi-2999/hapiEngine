@@ -25,3 +25,16 @@ function debug($var) {
     echo "<pre>" . print_r($var, true) . "</pre>";
 }
 
+function assets($name) {
+    $format = array_reverse(explode(".", $name))[0];
+
+    if ($format === "js") {
+        return "public/js/$name";
+    }
+
+    if ($format === "css") {
+        return "public/css/$name";
+    }
+
+    return null;
+}

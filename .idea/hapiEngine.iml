@@ -9,5 +9,21 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/composer" />
+          <root url="file://$MODULE_DIR$/vendor/core/base" />
+          <root url="file://$MODULE_DIR$/vendor/gabordemooij/redbean" />
+          <root url="file://$MODULE_DIR$/vendor/monolog/monolog" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/composer" />
+          <root url="file://$MODULE_DIR$/vendor/core/base" />
+          <root url="file://$MODULE_DIR$/vendor/gabordemooij/redbean" />
+          <root url="file://$MODULE_DIR$/vendor/monolog/monolog" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

@@ -15,7 +15,7 @@ use app\models\User;
 class MainController extends Controller
 {
     public function index() {
-        $this->getView()->render(["App/body_view", "header_view"], "main_layout");
+        $this->getView()->render(["App/body_view", "header_view"], "default_layout");
 
         $userData = [
             'login' => 'user',

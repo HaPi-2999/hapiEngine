@@ -2,5 +2,5 @@
 
 use vendor\core\Router;
 
-Router::add("", "MainController@index");
+Router::add("home", "MainController@index");
 

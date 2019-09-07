@@ -11,6 +11,5 @@ require_once "route.php";
 require_once "../conf.php";
 
 use vendor\core\Router;
-
-Router::dispatch($_SERVER['REQUEST_URI']);
+Router::dispatch(Router::deleteGetParam($_SERVER['REQUEST_URI']));
 

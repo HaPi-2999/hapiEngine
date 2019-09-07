@@ -112,4 +112,10 @@ class Router
         }
         return self::trimUri($uri);
     }
+
+    public static function deleteGetParam($uri)
+    {
+        return explode("?", $uri)[0];
+    }
+
 }

@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/gabordemooij/redbean.git",
-                "reference": "7ceef2a11e8ab457cc6d024717f56ee7cf220f8c"
+                "reference": "d1491a6ba5d8b5d7c2171e575101e53ecb17976a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gabordemooij/redbean/zipball/7ceef2a11e8ab457cc6d024717f56ee7cf220f8c",
-                "reference": "7ceef2a11e8ab457cc6d024717f56ee7cf220f8c",
+                "url": "https://api.github.com/repos/gabordemooij/redbean/zipball/d1491a6ba5d8b5d7c2171e575101e53ecb17976a",
+                "reference": "d1491a6ba5d8b5d7c2171e575101e53ecb17976a",
                 "shasum": ""
             },
             "require": {
@@ -45,7 +45,7 @@
             "keywords": [
                 "orm"
             ],
-            "time": "2019-06-23T17:19:34+00:00"
+            "time": "2019-08-29T06:57:35+00:00"
         },
         {
             "name": "monolog/monolog",
