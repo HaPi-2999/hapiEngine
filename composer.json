@@ -1,6 +1,7 @@
 {
   "require": {
     "monolog/monolog": "1.0.*",
-    "gabordemooij/redbean": "dev-master"
+    "gabordemooij/redbean": "dev-master",
+    "guzzlehttp/guzzle": "~6.0"
   }
 }

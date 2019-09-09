@@ -10,6 +10,8 @@ abstract class Controller
 {
     protected $route = [];
 
+    protected $request = [];
+
     protected $view;
 
     protected $model;
@@ -19,6 +21,7 @@ abstract class Controller
         $this->route = $route;
         $this->view = new View($route);
         $this->model = new Db();
+        $this->request = $_REQUEST;
     }
 
     protected function getView()

@@ -25,7 +25,7 @@ class View
      * @param array $views
      * @param string $layout
      */
-    public function render($views = ["default_view"], $layout = "default_layout")
+    public function render($views = ["default_view"], $layout = "default_layout", $data = [])
     {
         $this->views = $views;
         $this->layout = $layout;
